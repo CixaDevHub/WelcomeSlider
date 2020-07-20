@@ -1,0 +1,63 @@
+Welcome To Cixa Dev Hub
+
+To Create A Welcome Screen For Your App Just Follow Below Steps
+
+
+If You Are Facing Any Difficulties Then Watch Our Video On Youtube Link : - 
+
+
+
+
+Step 1 - 
+
+(i)   Open build.gradle in your android studio
+(ii)  Add This In Dependencies :
+
+implementation 'androidx.viewpager2:viewpager2:1.0.0'
+implementation 'com.google.android.material:material:1.2.0-alpha02'
+
+iii)   Then, Click On Sync Now
+
+
+
+
+
+
+Step 2 - 
+
+(i)   Open res/values/style.xml
+(ii)  Copy and paste below code in style.xml
+
+
+<style name="WelcomeSliderTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+<item name="colorPrimary">@color/colorPrimary1</item>
+<item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+<item name="colorAccent">@color/colorAccent1</item>
+
+</style>
+
+(iii) Make Sure You Have Pasted This Code Between Resource Tags.
+
+
+
+
+
+
+Step 3 -
+
+(i)  open  res/values/colors.xml
+(ii)  Copy and paste below code in colors.xml
+
+<color name="colorPrimary1">#2196F3</color>
+<color name="colorPrimaryDark1">#1976D2</color>
+<color name="colorAccent1">#FF5252</color>
+<color name="colorTextPrimary">#212121</color>
+<color name="colorTextSecondary">#757575</color>
+<color name="colorBackground">#FFFFFF</color>
+<color name="colorWelcomeIndicatorInactive">#72BCF7</color>
+
+
+SO HERE WE HAVE JUST COMPLETED THE BASIC STEPS NOW COPY BELOW URL TO WATCH COMPLETE TUTORIAL.
+
+LINK - 

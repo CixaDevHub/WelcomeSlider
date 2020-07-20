@@ -1,0 +1,11 @@
+Paste Below Code In AndroidManifest.XML
+
+
+<activity android:name=".WelcomeSliderActivity"
+      android:theme="@style/WelcomeSliderTheme">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
